@@ -14,7 +14,7 @@
 
 int		ft_fibonacci(int i)
 {
-	if (index < 0)
+	if (i < 0)
 		return (-1);
 	if (i == 0 || i >= 46)
 		return (0);
